@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/save_cancel_bar"
+        layout="@layout/sticker_layout_save_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/crop_bar_height"/>
+
+    <com.mz.sticker.crop.CropImageView
+        android:id="@+id/crop_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/crop_texture"
+        android:layout_below="@id/save_cancel_bar"
+        android:layout_above="@+id/stickersToolbar"/>
+
+    <LinearLayout style="@style/Crop.DoneCancelBar"
+        android:id="@+id/stickersToolbar"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <HorizontalScrollView android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView style="@style/StickersPaletteStyle"
+                    android:id="@+id/stickers_palette_one"/>
+
+                <ImageView style="@style/StickersPaletteStyle"
+                    android:id="@+id/stickers_palette_two"/>
+
+                <ImageView style="@style/StickersPaletteStyle"
+                    android:id="@+id/stickers_palette_three"/>
+
+                <ImageView style="@style/StickersPaletteStyle"
+                    android:id="@+id/stickers_palette_four"/>
+
+                <ImageView style="@style/StickersPaletteStyle"
+                    android:id="@+id/stickers_palette_five"/>
+
+                <ImageView style="@style/StickersPaletteStyle"
+                    android:id="@+id/stickers_palette_six"/>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <Button android:id="@+id/stickers_store_button"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:text="@string/stickers_store_button"
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:background="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

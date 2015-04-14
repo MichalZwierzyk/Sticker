@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/done_cancel_bar"
+        layout="@layout/crop_layout_done_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/crop_bar_height"/>
+
+    <View android:id="@+id/crop_toolbar_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/done_cancel_bar"
+        android:background="@color/crop_toolbar_divider"/>
+
+    <include android:id="@+id/crop_size_toolbar"
+        layout="@layout/crop_layout_size_toolbar"
+        android:layout_below="@id/crop_toolbar_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/crop_bar_height"/>
+
+    <com.mz.sticker.crop.CropImageView
+        android:id="@+id/crop_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/crop_texture"
+        android:layout_below="@id/crop_size_toolbar"/>
+
+</RelativeLayout>

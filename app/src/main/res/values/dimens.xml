@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="gallery_photo_width">150dp</dimen>
+    <dimen name="gallery_photo_height">100dp</dimen>
+    <dimen name="gallery_photo_margin">5dp</dimen>
+    <dimen name="crop_bar_height">56dp</dimen>
+    <dimen name="stickers_palette_item_width">80dp</dimen>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sticker="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_apply_sticker"
+        android:title="@string/action_menu_apply_sticker"
+        android:orderInCategory="0"
+        android:visible="true"
+        sticker:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_remove_sticker"
+        android:title="@string/action_menu_remove_sticker"
+        android:orderInCategory="1"
+        android:visible="true"
+        sticker:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_rotate"
+        android:title="@string/action_menu_rotate"
+        android:orderInCategory="2"
+        android:visible="true"
+        sticker:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_menu_share"
+        android:orderInCategory="3"
+        android:visible="true"
+        sticker:showAsAction="never"/>
+
+</menu>

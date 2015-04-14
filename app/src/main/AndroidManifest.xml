@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mz.sticker" >
+
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"/>
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".application.StickerApplication"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".screen.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoTitleBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".screen.GalleryActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoTitleBarTheme" />
+
+        <activity
+            android:name=".screen.CropImageActivity"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".screen.StickerActivity"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".screen.StickersPaletteActivity"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".screen.StickersStoreActivity"
+            android:label="@string/app_name" />
+
+    </application>
+
+</manifest>

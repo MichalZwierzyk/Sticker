@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_activity_background_color">#A7A8B3</color>
+    <color name="main_activity_button_color">#33B5E5</color>
+    <color name="main_activity_button_pressed_color">#3395C5</color>
+    <color name="crop_button_bar">#F3F3F3</color>
+    <color name="crop_button_text">#666666</color>
+    <color name="crop_toolbar_divider">#AAAAAA</color>
+    <color name="crop_selector_pressed">#1A000000</color>
+    <color name="crop_selector_focused">#77000000</color>
+</resources>

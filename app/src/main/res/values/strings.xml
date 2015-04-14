@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Sticker</string>
+    <string name="camera_button_title">Camera</string>
+    <string name="gallery_button_title">Gallery</string>
+    <string name="device_has_no_camera">Sorry, your device doesn\'t have camera</string>
+    <string name="device_has_no_camera_app">Sorry, there is no camera app on your device</string>
+    <string name="cannot_create_photo_dir">Error while creating app\'s picture directory</string>
+    <string name="cannot_capture_picture">Error while capturing picture</string>
+    <string name="crop_cropping">Cropping picture…</string>
+    <string name="crop_wait">Please wait…</string>
+    <string name="crop_pick_error">No image sources available</string>
+    <string name="crop_done">DONE</string>
+    <string name="crop_save">SAVE</string>
+    <string name="crop_cancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="crop_original_size">Original</string>
+    <string name="crop_square_size">Square</string>
+    <string name="crop_vertical_size">2:3</string>
+    <string name="crop_horizontal_size">16:9</string>
+    <string name="stickers_store_button">Stickers Store</string>
+    <string name="store_item_button_title">Buy</string>
+    <string name="store_item_title">Item %1$s</string>
+    <string name="store_item_descr">Descr of Item %1$s</string>
+    <string name="purchase_dialog_message">Click OK to accept payment</string>
+    <string name="purchase_dialog_title">Purchase of stickers palette</string>
+    <string name="confirm_button">OK</string>
+    <string name="sticker_saving">Picture saving…</string>
+    <string name="action_menu_apply_sticker">Apply sticker</string>
+    <string name="action_menu_remove_sticker">Remove sticker</string>
+    <string name="action_menu_share">Share</string>
+    <string name="action_menu_rotate">Rotate</string>
+    <string name="share_picture">Share your picture</string>
+</resources>

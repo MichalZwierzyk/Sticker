@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:gravity="center_vertical"
+    android:weightSum="1">
+
+    <ImageView android:id="@+id/store_item_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:scaleType="center"/>
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:layout_marginLeft="6dp">
+
+        <TextView android:id="@+id/store_item_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView android:id="@+id/store_item_descr_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <Button android:id="@+id/store_item_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_marginLeft="6dp"
+        android:textSize="13sp"
+        android:textColor="@android:color/white"
+        android:text="@string/store_item_button_title"
+        android:background="#0099CC"/>
+
+</LinearLayout>

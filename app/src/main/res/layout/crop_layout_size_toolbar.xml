@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Crop.DoneCancelBar">
+
+    <FrameLayout
+        android:id="@+id/crop_original_size"
+        style="@style/Crop.ActionButton">
+        <TextView style="@style/Crop.ActionButtonText.OriginalSize" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/crop_square_size"
+        style="@style/Crop.ActionButton">
+        <TextView style="@style/Crop.ActionButtonText.SquareSize" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/crop_vertical_size"
+        style="@style/Crop.ActionButton">
+        <TextView style="@style/Crop.ActionButtonText.VerticalSize" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/crop_horizontal_size"
+        style="@style/Crop.ActionButton">
+        <TextView style="@style/Crop.ActionButtonText.HorizontalSize" />
+    </FrameLayout>
+
+</LinearLayout>
